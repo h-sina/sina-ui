@@ -1,6 +1,6 @@
 <template>
   <button>123</button>
-  <n-button></n-button>
+  <n-button msg="button" @click="ck" color="white" type="round"></n-button>
   <n-input></n-input>
   <H></H>
 </template>
@@ -16,6 +16,16 @@ export default {
     nButton,
     nInput,
     H
+  },
+  data: function () {
+    return {
+      msg: '按钮',
+    }
+  },
+  methods: {
+    ck () {
+      console.log('按钮被点击了');
+    }
   }
 }
 </script>
