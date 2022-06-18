@@ -8,6 +8,7 @@
 import { defineComponent, ref, onMounted } from "vue";
 
 export default defineComponent({
+  name: 'NButton',
   props: {
     msg: {
       type: String,

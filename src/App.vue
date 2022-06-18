@@ -1,8 +1,7 @@
 <template>
-  <button>123</button>
   <n-button msg="button" @click="ck" color="white" type="round"></n-button>
-  <n-input></n-input>
-  <H></H>
+  <!-- <n-input></n-input> -->
+  <!-- <H></H> -->
 </template>
 
 <script>
