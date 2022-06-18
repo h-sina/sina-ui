@@ -1,6 +1,6 @@
 {
   "name": "sina-ui",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "private": false,
   "description": "",
   "main": "dist/sina-ui.umd.min.js",
