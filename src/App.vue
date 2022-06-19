@@ -1,6 +1,6 @@
 <template>
   <n-button msg="buttonbuttonbutton" disabled="true" @click="ck" color="white" shape="round"></n-button>
-  <!-- <n-input></n-input> -->
+  <n-input></n-input>
   <!-- <H></H> -->
 
   <n-button msg="buttonbuttonbutton" @click="ck" color="white"></n-button>
