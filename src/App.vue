@@ -1,7 +1,11 @@
 <template>
-  <n-button msg="button" @click="ck" color="white" type="round"></n-button>
+  <n-button msg="buttonbuttonbutton" disabled="true" @click="ck" color="white" shape="round"></n-button>
   <!-- <n-input></n-input> -->
   <!-- <H></H> -->
+
+  <n-button msg="buttonbuttonbutton" @click="ck" color="white"></n-button>
+
+  <n-button msg="按钮按钮按钮" @click="ck" color="white" shape="circle"></n-button>
 </template>
 
 <script>
