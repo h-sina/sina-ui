@@ -14,6 +14,7 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
+      - run: chmod -R 755 ./*
       - run: npm run lib
       - run: npm publish
         env:
