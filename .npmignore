@@ -1,8 +1,12 @@
-# node_modules/
-# vue.config.js
-# babel.config.js
-# *.map
-# *.html
+node_modules/
+vue.config.js
+babel.config.js
+src/
+packages/
 
-# .idea
-# .vscode
+*.map
+*.html
+
+.idea
+.vscode
+.github
