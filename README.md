@@ -1,19 +1,9 @@
 # sina-ui
 
-## Project setup
+## npm安装
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install sina-ui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 食用文档
+http://81.69.234.69:8001/
