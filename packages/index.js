@@ -1,11 +1,13 @@
-import H from './H.vue';
-import NButton from './NButton.vue';
-import NInput from './NInput.vue';
+import NButton from './button/NButton.vue';
+import NInput from './input/NInput.vue';
+import NCarousel from './NCarousel/NCarousel.vue';
+import NCarouselItem from './NCarousel/NCarouselItem.vue';
 
 const components = [
   NButton,
   NInput,
-  H
+  NCarousel,
+  NCarouselItem
 ]
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
 const install = function (Vue) {
