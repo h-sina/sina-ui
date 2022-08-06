@@ -1,21 +1,5 @@
 <template>
   <div>
-    <!-- <NCarousel width="600px" height="400px" speed="1">
-      <Index v-for="(item,index) in arr" :key="index">
-        <a :href="item.link">
-          <img :src="item.image" />
-        </a>
-      </Index>
-    </NCarousel> -->
-    <!-- <drag-wrap class="wrap" :data="list" @watchData="watchData">
-      <drag-item class="item" v-for="(item, index) in list" :key="index">
-        <template #drag>
-          <div>拖拽Dom</div>
-        </template>
-        <div>{{item}}</div>
-      </drag-item>
-    </drag-wrap>-->
-
     <n-container>
       <Header></Header>
       <n-container>
