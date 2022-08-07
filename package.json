@@ -1,8 +1,8 @@
 {
   "name": "sina-ui",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "private": false,
-  "description": "",
+  "description": "组件库",
   "main": "dist/sina-ui.umd.min.js",
   "author": "nanaei",
   "scripts": {

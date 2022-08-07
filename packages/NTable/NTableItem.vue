@@ -4,6 +4,17 @@
   </td>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NTableItem'
+})
+</script>
+
+
 <script setup name="NTableItem">
 </script>
 <style lang="less" scoped>

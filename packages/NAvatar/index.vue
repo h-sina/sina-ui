@@ -2,6 +2,15 @@
   <img ref="pic" :src="PicURL" />
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NAvatar'
+})
+</script>
 <script setup name="NAvatar">
 import { ref, onMounted } from "vue";
 const props = defineProps({

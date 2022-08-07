@@ -4,6 +4,16 @@
   </li>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NMenuItem'
+})
+</script>
+
 <script setup name="NMenuItem">
 import {ref} from 'vue';
 import {current} from './eventBus';

@@ -6,11 +6,22 @@
     <slot></slot>
   </div>
 </template>
-<script setup>
+
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NMenuGroup'
+})
+</script>
+
+<script setup name="NMenuGroup">
 
 </script>
 
-<style scoped name="NMenuGroup">
+<style scoped>
 div {
   font-weight: 300;
 }

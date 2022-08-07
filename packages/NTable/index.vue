@@ -6,6 +6,16 @@
   </table>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NTable'
+})
+</script>
+
 <script setup name="NTable">
 import { ref, onMounted } from 'vue';
 const table = ref();

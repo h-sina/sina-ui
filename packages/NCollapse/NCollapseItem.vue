@@ -15,6 +15,15 @@
   </div>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NCollapseItem'
+})
+</script>
 <script setup name="NCollapseItem">
 import { parse } from 'path';
 import { ref } from 'vue';

@@ -13,6 +13,17 @@
   </div>
 </template>
 
+
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NSubMenu'
+})
+</script>
+
 <script setup name="NSubMenu">
 import { ref } from 'vue';
 const props = defineProps({

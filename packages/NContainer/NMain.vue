@@ -4,6 +4,16 @@
   </div>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NMain'
+})
+</script>
+
 <script setup name="NMain">
 
 </script>

@@ -24,6 +24,18 @@
   </div>
 </template>
 
+
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NUpload'
+})
+</script>
+
+
 <script setup name="NUpload">
 import { ref, getCurrentInstance } from "vue";
 import NButton from "../NButton/index";

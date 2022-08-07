@@ -1,5 +1,5 @@
 <template>
-  <n-footer style="background-color: #f7fbfd; height: 300px; padding: 40px 150px 40px 150px">
+  <n-footer style="background-color: #ecf5ff; height: 300px; padding: 40px 150px 40px 150px">
     <div
       style="display: flex;justify-content: center; align-items: center;display: flex;justify-content: space-between;"
     >
