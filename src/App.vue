@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div style="background-color: #183153">
     <n-container>
       <Header></Header>
-      <n-container>
+      <n-container style="background-color: #fff;border-top-left-radius: 20px;border-top-right-radius: 20px;">
         <n-aside>
           <Menu></Menu>
         </n-aside>
@@ -90,6 +90,10 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

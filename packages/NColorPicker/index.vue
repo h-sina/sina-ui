@@ -2,6 +2,16 @@
   <input type="color" name="bgColor"/>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NColorPicker'
+})
+</script>
+
 <script setup name="NColorPicker">
 </script>
 <style lang="less" scoped>

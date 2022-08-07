@@ -6,6 +6,15 @@
   </div>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NBackTop'
+})
+</script>
 <!-- 回到顶部  -->
 <script setup name="NBackTop">
 import { ref, onMounted, onBeforeUnmount, getCurrentInstance } from "vue";

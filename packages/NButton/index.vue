@@ -4,6 +4,16 @@
   </button>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NButton'
+})
+</script>
+
 <script setup name="NButton">
 import { ref, onMounted, getCurrentInstance } from "vue";
 const { proxy, ctx } = getCurrentInstance();

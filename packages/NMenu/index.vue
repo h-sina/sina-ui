@@ -6,6 +6,17 @@
   </div>
 </template>
 
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NMenu'
+})
+</script>
+
+
 <!-- 菜单 竖状  -->
 <script setup name="NMenu">
 import { current } from './eventBus';

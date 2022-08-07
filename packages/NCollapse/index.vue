@@ -5,6 +5,16 @@
     </ul>
   </div>
 </template>
+
+<script>
+import {
+  defineComponent
+} from 'vue'
+
+export default defineComponent({
+  name: 'NCollapse'
+})
+</script>
 <!-- 折叠面板 带手风琴样式  -->
 <script setup name="NCollapse">
 import { current } from './eventBus';
